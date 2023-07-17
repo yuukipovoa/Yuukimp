@@ -233,11 +233,11 @@ section .title::after{
     background: none;
 }
 .text{
-    color: #111;
+    color: #fff;
 }
 
 .texts{
-    color: #fff;
+    color: #111;
 }
 
 /* about section styling */
