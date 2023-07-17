@@ -236,6 +236,10 @@ section .title::after{
     color: #111;
 }
 
+.texts{
+    color: #fff;
+}
+
 /* about section styling */
 
 .about .about-content .left{
