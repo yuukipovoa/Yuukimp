@@ -335,6 +335,13 @@ section .title::after{
     font-weight: 600;
     margin-bottom: 10px;
 }
+
+.skills .skills-content .left .texts{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
 .skills .skills-content .left p{
     text-align: justify;
 }
