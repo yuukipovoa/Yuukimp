@@ -248,8 +248,8 @@ section .title::after{
     width: 45%;
 }
 .about .about-content .left img{
-    height: 400px;
-    width: 400px;
+    height: 300px;
+    width: 300px;
     object-fit: cover;
     border-radius: 6px;
 }
@@ -390,19 +390,19 @@ section .title::after{
 
 
 .skills-content .right .hc::before{
-    width: 85%;
+    width: 90%;
 }
 .skills-content .right .js::before{
-    width: 85%;
+    width: 90%;
 }
 .skills-content .right .rt::before{
-    width: 95%;
+    width: 90%;
 }
 .skills-content .right .py::before{
-    width: 100%;
+    width: 90%;
 }
 .skills-content .right .my::before{
-    width: 70%;
+    width: 90%;
 }
 
 
@@ -635,8 +635,8 @@ footer .ifts{
 /* responsive media query start */
 @media (max-width: 1104px) {
     .about .about-content .left img{
-        height: 350px;
-        width: 350px;
+        height: 200px;
+        width: 200px;
     }
 }
 
