@@ -71,6 +71,7 @@ section .title{
     margin-bottom: 60px;
     padding-bottom: 20px;
     font-family: 'Ubuntu', sans-serif;
+font-size: bolder;
     
 }
 
@@ -181,7 +182,7 @@ section .title::after{
 /* home section styling */
 .home{
     display: flex;
-    background: url("images/banner.png") no-repeat center;
+    background: url("images/banner2.png") no-repeat center;
     height: 100vh;
     color: #fff;
     min-height: 500px;
@@ -198,23 +199,23 @@ section .title::after{
 }
 .home .home-content .text-1{
     font-size: 27px;
-    font-size: #fff;
+    font-size: #000000;
 }
 .home .home-content .text-2{
     font-size: 75px;
     font-weight: 600;
     margin-left: -3px;
-    font-size: #fff;
+    font-size: #000000;
 }
 .home .home-content .text-3{
     font-size: 40px;
     margin: 5px 0;
-    font-size: #fff;
+    font-size: #000000;
 }
 .home .home-content .text-3 span{
     color: #cd0018;
     font-weight: 500;
-    color: #fff;
+    color: #cd0018;
 }
 .home .home-content a{
     display: inline-block;
@@ -232,12 +233,12 @@ section .title::after{
     color: #cd0018;
     background: none;
 }
-.text{
-    color: #fff;
+.texts{
+    color: #040404;
 }
 
-.texts{
-    color: #111;
+.text{
+color: #fff;
 }
 
 /* about section styling */
@@ -251,6 +252,14 @@ section .title::after{
     object-fit: cover;
     border-radius: 6px;
 }
+
+.about .about-content .lefts img{
+    height: 400px;
+    width: 400px;
+    object-fit: cover;
+    border-radius: 6px;
+}
+
 .about .about-content .right{
     width: 55%;
 }
@@ -276,19 +285,58 @@ section .title::after{
     border-radius: 6px;
     border: 2px solid #cd0018;
     transition: all 0.3s ease;
+    margin-left: 225px;
 }
 .about .about-content .right a:hover{
     color: #cd0018;
     background: none;
 }
 
+
+
+
+.about .about-content .rights{
+    width: 55%;
+}
+.about .about-content .rights .text{
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.about .about-content .rights .text span{
+    color: #cd0018;
+}
+.about .about-content .rights p{
+    text-align: justify;
+}
+.about .about-content .rights a{
+    display: inline-block;
+    background: #cd0018;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 15px 30px;
+    margin-top: 20px;
+    border-radius: 6px;
+    border: 2px solid #cd0018;
+    transition: all 0.3s ease;
+    margin-left: 225px;
+}
+
+.about .about-content .rights a:hover{
+    color: #cd0018;
+    background: none;
+}
+
+
+
 /* services section styling */
-.services, .teams{
+.services, .teams {
     color:#fff;
     background: #111;
 }
 
-.services .serv-content .card{
+.services .serv-content .card .sci{
     width: calc(50px - 5px);
     background: #222;
     text-align: center;
@@ -298,27 +346,28 @@ section .title::after{
     transition: all 0.3s ease;
     margin: 0px;
     margin-top: 15px;
+    
    
 }
-.services .serv-content .card:hover{
+.services .serv-content .card .sci:hover{
     background: #cd0018;
 }
-.services .serv-content .card .box{
+.services .serv-content .card .sci .box{
     transition: all 0.3s ease;
     color: #fff;
 }
-.services .serv-content .card:hover .box{
+.services .serv-content .card .sci:hover .box{
     transform: scale(1.05);
 }
-.services .serv-content .card i{
+.services .serv-content .card .sci i{
     font-size: 50px;
     color: #cd0018;
     transition: color 0.3s ease;
 }
-.services .serv-content .card:hover i{
+.services .serv-content .card .sci:hover i{
     color: #fff;
 }
-.services .serv-content .card .text{
+.services .serv-content .card .sci .text{
     font-size: 1px;
     font-weight: 500;
     margin: 10px 0 0,5px 0;
@@ -335,13 +384,11 @@ section .title::after{
     font-weight: 600;
     margin-bottom: 10px;
 }
-
-.skills .skills-content .left .texts{
+.skills .skills-content .contact .contact-content .left .texts{
     font-size: 20px;
     font-weight: 600;
     margin-bottom: 10px;
 }
-
 .skills .skills-content .left p{
     text-align: justify;
 }
@@ -428,6 +475,69 @@ section .title::after{
     width: 50%;
 }
 
+
+.skills .skills-content .column{
+    width: calc(50% - 30px);
+}
+.skills .skills-content .rightl .text{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.skills .skills-content .contact .contact-content .rightl .texts{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.skills .skills-content .rightl p{
+    text-align: justify;
+}
+.skills .skills-content .rightl a{
+    display: inline-block;
+    background: #cd0018;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 8px 16px;
+    margin-top: 20px;
+    border-radius: 6px;
+    border: 2px solid #cd0018;
+    transition: all 0.3s ease;
+}
+.skills .skills-content .rightl a:hover{
+    color: #cd0018;
+    background: none;
+}
+.skills .skills-content .right .bars{
+    margin-bottom: 15px;
+}
+.skills .skills-content .right .info{
+    display: flex;
+    margin-bottom: 5px;
+    align-items: center;
+    justify-content: space-between;
+}
+.skills .skills-content .leftr span{
+    font-weight: 500;
+    font-size: 18px;
+}
+.skills .skills-content .leftr .line{
+    height: 5px;
+    width: 100%;
+    background: lightgrey;
+    position: relative;
+}
+.skills .skills-content .leftr .line::before{
+    content: "";
+    position: absolute;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background: #cd0018;
+}
+
+
+
 /* teams section styling */
 
 .teams .carousel .card{
@@ -448,7 +558,7 @@ section .title::after{
     justify-content: center;
     transition: all 0.3s ease;
 }
-.teams .carousel .card:hover .box{
+.teams .carousel .card .sci:hover .box{
     transform: scale(1.05);
 }
 .teams .carousel .card .text{
@@ -464,9 +574,12 @@ section .title::after{
     border: 5px solid #cd0018;
     transition: all 0.3s ease;
 }
-.teams .carousel .card:hover img{
+.teams .carousel .card :hover img{
     border-color: #fff;
 }
+
+
+
 .owl-dots{
     text-align: center;
     margin-top: 20px;
@@ -776,4 +889,72 @@ footer .ifts{
         font-size: 23px;
         line-height: 38px;
     }
+}
+
+
+
+
+
+
+
+
+
+
+.sci
+{
+   margin-top: 2px;
+}
+ .sci a
+{
+   text-decoration: none;
+   color: #ffffff;
+   font-size: 30px;
+   margin-right: 13px;
+   border-color: #fff;
+   transition: color 0.4s;
+}
+.sci a:hover
+{
+    border-color: #fff;
+    color: #fff;
+}
+
+
+.sci2
+{
+margin-left: 200px;
+}
+ .sci2 a
+{
+   text-decoration: none;
+   color: #cd0018;
+   font-size: 40px;
+   margin-top: 580px;
+  margin-right: 100px;
+   
+   transition: color 0.4s;
+}
+.sci2 a:hover
+{
+   
+    color: #d89aa2;
+}
+
+.sci3
+{
+   margin-top: 2px;
+}
+ .sci3 a
+{
+   text-decoration: none;
+   color: #cd0018;
+   font-size: 30px;
+   margin-top: 23px;
+   margin-right: 53px;
+   transition: color 0.4s;
+}
+.sci3 a:hover
+{
+   
+    color: #4a000a;
 }
