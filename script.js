@@ -35,18 +35,13 @@ $(document).ready(function(){
 
     // typing text animation script
     var typed = new Typed(".typing", {
-        strings: ["Desenvolvedor Full-stack", "Designer", "Tecnico de informatica", "Professor de musica"],
+        strings: ["Desenvolvedor Full-stack", "Designer", "Técnico de informatica", "Professor de musica", ],
         typeSpeed: 100,
         backSpeed: 60,
         loop: true
     });
 
-    var typed = new Typed(".typing-2", {
-        strings: ["Desenvolvedor Full-stack", "Designer", "Tecnico de informatica", "Professor de musica"],
-        typeSpeed: 100,
-        backSpeed: 60,
-        loop: true
-    });
+    
 
     // owl carousel script
     $('.carousel').owlCarousel({
